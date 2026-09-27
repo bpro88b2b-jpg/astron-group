@@ -10,7 +10,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
 body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 75% 10%,rgba(200,164,91,.10),transparent 30%)}
 .nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:28px;padding:18px 5vw;background:rgba(8,9,9,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
-.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-weight:700;letter-spacing:2px;margin-right:auto}.mark{display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--gold);color:var(--gold);font-family:Georgia,serif}
+.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-weight:700;letter-spacing:2px;margin-right:auto}.mark{display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--gold);color:var(--gold);font-family:Georgia,serif}.brand-logo{display:block;width:190px;max-width:34vw;height:auto;object-fit:contain}
 nav{display:flex;gap:22px}nav a{color:#c8c5bd;text-decoration:none;font-size:13px}nav a:hover{color:var(--gold2)}
 select{background:#111;color:var(--gold2);border:1px solid #4b412c;padding:8px}
 .hero{min-height:86vh;padding:15vh 8vw 9vh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}.hero-glow{position:absolute;width:520px;height:520px;right:-80px;top:80px;border:1px solid rgba(200,164,91,.15);transform:rotate(45deg)}
@@ -29,8 +29,7 @@ footer{display:flex;justify-content:space-between;gap:20px;padding:30px 8vw;bord
 </head>
 <body>
 <header class="nav">
-  <a class="brand" href="#top"><span class="mark">A</span><span>ASTRON GROUP</span></a>
-  <nav>
+  <a class="brand" href="#top"><img class="brand-logo" src="IMG-20260923-WA0013.jpg" alt="Astron Group"></a>
     <a data-i18n="nav_about" href="#about">About</a>
     <a data-i18n="nav_expertise" href="#expertise">Expertise</a>
     <a data-i18n="nav_ecosystem" href="#ecosystem">Ecosystem</a>
