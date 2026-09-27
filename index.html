@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Astron Group | Structured Finance & Real Assets</title>
+  <meta name="description" content="Astron Group — structured finance, securitization, funds and real assets.">
+  <style>
+:root{--black:#080909;--panel:#101111;--gold:#c8a45b;--gold2:#f0d28e;--text:#f3f0e8;--muted:#a7a49d;--line:#292824}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--black);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 75% 10%,rgba(200,164,91,.10),transparent 30%)}
+.nav{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:28px;padding:18px 5vw;background:rgba(8,9,9,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:12px;color:var(--text);text-decoration:none;font-weight:700;letter-spacing:2px;margin-right:auto}.mark{display:grid;place-items:center;width:34px;height:34px;border:1px solid var(--gold);color:var(--gold);font-family:Georgia,serif}
+nav{display:flex;gap:22px}nav a{color:#c8c5bd;text-decoration:none;font-size:13px}nav a:hover{color:var(--gold2)}
+select{background:#111;color:var(--gold2);border:1px solid #4b412c;padding:8px}
+.hero{min-height:86vh;padding:15vh 8vw 9vh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden}.hero-glow{position:absolute;width:520px;height:520px;right:-80px;top:80px;border:1px solid rgba(200,164,91,.15);transform:rotate(45deg)}
+.eyebrow{font-size:11px;letter-spacing:4px;color:var(--gold);font-weight:700;margin-bottom:22px}.hero h1{font-family:Georgia,serif;font-weight:400;font-size:clamp(48px,7vw,100px);line-height:.98;max-width:1100px;margin:0 0 30px}.hero p{max-width:720px;color:#bbb7ad;font-size:19px}
+.actions{display:flex;gap:14px;margin-top:25px}.btn{display:inline-block;padding:14px 22px;text-decoration:none;text-transform:uppercase;letter-spacing:1.5px;font-size:11px;font-weight:700}.gold{background:var(--gold);color:#080909}.ghost{border:1px solid #59564e;color:var(--text)}
+.hero-tags{display:flex;gap:24px;flex-wrap:wrap;margin-top:80px;color:#77746c;font-size:10px;letter-spacing:2px}
+.section{padding:110px 8vw;border-top:1px solid var(--line)}.split{display:grid;grid-template-columns:1fr 1fr;gap:10vw}.section h2{font-family:Georgia,serif;font-weight:400;font-size:clamp(34px,4vw,62px);line-height:1.08;margin:0}.section p{color:var(--muted);font-size:17px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);margin-top:60px}.cards article{background:#0d0e0e;padding:34px;min-height:270px}.cards b{color:var(--gold);font-size:11px}.cards h3{font-family:Georgia,serif;font-size:25px;font-weight:400;margin-top:55px}.cards p{font-size:14px}
+.lead{max-width:780px}.ecosystem-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:55px}.eco-card{padding:38px;border:1px solid var(--line);min-height:310px;background:linear-gradient(145deg,#101111,#0a0b0b)}.eco-card.green{background:linear-gradient(145deg,#0d1712,#090b0a)}.eco-card.forest{background:linear-gradient(145deg,#10170f,#090b09)}.logo-placeholder{height:72px;display:flex;align-items:center;color:var(--gold2);font-family:Georgia,serif;letter-spacing:3px;border-bottom:1px solid #2c2b27}.eco-card h3{font-size:26px;font-family:Georgia,serif;font-weight:400}.eco-card a{color:var(--gold2);text-decoration:none}.note{font-size:12px!important}
+.dark-panel{background:#0e0f0f}.contact{text-align:center}.contact p{max-width:700px;margin:25px auto 35px}.contact h2{font-size:clamp(44px,6vw,82px)}
+footer{display:flex;justify-content:space-between;gap:20px;padding:30px 8vw;border-top:1px solid var(--line);color:#6f6c65;font-size:11px;letter-spacing:1px}
+@media(max-width:900px){nav{display:none}.split,.cards,.ecosystem-grid{grid-template-columns:1fr}.hero{padding-top:12vh}.cards article{min-height:auto}.hero-tags{margin-top:45px}.nav{padding:14px 5vw}.brand{font-size:12px}}
+
+</style>
+<meta name="theme-color" content="#080909">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top"><span class="mark">A</span><span>ASTRON GROUP</span></a>
+  <nav>
+    <a data-i18n="nav_about" href="#about">About</a>
+    <a data-i18n="nav_expertise" href="#expertise">Expertise</a>
+    <a data-i18n="nav_ecosystem" href="#ecosystem">Ecosystem</a>
+    <a data-i18n="nav_governance" href="#governance">Governance</a>
+    <a data-i18n="nav_contact" href="#contact">Contact</a>
+  </nav>
+  <select id="language" aria-label="Language">
+    <option value="en">EN</option><option value="pt">PT</option><option value="es">ES</option>
+    <option value="fr">FR</option><option value="it">IT</option><option value="de">DE</option>
+  </select>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-glow"></div>
+  <div class="eyebrow" data-i18n="hero_kicker">ASTRON GROUP HOLDING</div>
+  <h1 data-i18n="hero_title">A new standard in structured finance and real assets.</h1>
+  <p data-i18n="hero_text">Connecting capital, securitization and real assets through disciplined structures designed for an international market.</p>
+  <div class="actions">
+    <a class="btn gold" href="#expertise" data-i18n="hero_cta1">Explore our expertise</a>
+    <a class="btn ghost" href="#ecosystem" data-i18n="hero_cta2">Discover the ecosystem</a>
+  </div>
+  <div class="hero-tags"><span>FUNDS</span><span>SECURITIZATION</span><span>STRUCTURED FINANCE</span><span>REAL ASSETS</span></div>
+</section>
+
+<section id="about" class="section split">
+  <div><div class="eyebrow" data-i18n="about_kicker">ABOUT ASTRON</div><h2 data-i18n="about_title">Capital architecture with an international perspective.</h2></div>
+  <p data-i18n="about_text">Astron Group develops and coordinates financial structures connecting investors, assets and specialized vehicles, with emphasis on governance, compliance, transparency and long-term value creation.</p>
+</section>
+
+<section id="expertise" class="section">
+  <div class="eyebrow" data-i18n="expertise_kicker">OUR EXPERTISE</div>
+  <h2 data-i18n="expertise_title">Institutional solutions for sophisticated transactions.</h2>
+  <div class="cards">
+    <article><b>01</b><h3 data-i18n="e1t">Funds & Investment Structures</h3><p data-i18n="e1p">Architecture for investment vehicles and capital allocation strategies.</p></article>
+    <article><b>02</b><h3 data-i18n="e2t">Securitization</h3><p data-i18n="e2p">Structured transactions backed by eligible receivables and real-economy assets.</p></article>
+    <article><b>03</b><h3 data-i18n="e3t">Structured Finance</h3><p data-i18n="e3p">Tailored capital structures combining assets, guarantees and financing solutions.</p></article>
+    <article><b>04</b><h3 data-i18n="e4t">Real & Green Assets</h3><p data-i18n="e4p">Financial strategies connected to agricultural, forestry and environmental assets.</p></article>
+  </div>
+</section>
+
+<section id="ecosystem" class="section ecosystem">
+  <div class="eyebrow" data-i18n="eco_kicker">OUR ECOSYSTEM</div>
+  <h2 data-i18n="eco_title">One group. Complementary platforms.</h2>
+  <p class="lead" data-i18n="eco_text">Astron Group connects financial structuring, technology and environmental impact within a unified institutional ecosystem.</p>
+  <div class="ecosystem-grid">
+    <article class="eco-card parent"><div class="logo-placeholder">ASTRON</div><h3>Astron Group</h3><p data-i18n="astron_desc">Holding, funds, securitization and structured finance.</p></article>
+    <article class="eco-card green"><div class="logo-placeholder">GREEN CUBE</div><h3>Green Cube</h3><p data-i18n="gc_desc">Technology, tokenization and infrastructure for green and environmental assets.</p><a href="#" data-i18n="visit">Landing page →</a></article>
+    <article class="eco-card forest"><div class="logo-placeholder">AGFF</div><h3>Astron Green Forest Foundation</h3><p data-i18n="agff_desc">Forest preservation, sustainability and environmental impact initiatives.</p><a href="#" data-i18n="visit">Landing page →</a></article>
+  </div>
+  <p class="note" data-i18n="logo_note">Prototype: official logos will replace these placeholders.</p>
+</section>
+
+<section id="governance" class="section split dark-panel">
+  <div><div class="eyebrow" data-i18n="gov_kicker">GOVERNANCE & COMPLIANCE</div><h2 data-i18n="gov_title">Built for institutional confidence.</h2></div>
+  <p data-i18n="gov_text">Our approach prioritizes due diligence, asset eligibility, valuation, risk controls, legal structuring and transparent governance appropriate to each transaction and jurisdiction.</p>
+</section>
+
+<section id="contact" class="section contact">
+  <div class="eyebrow" data-i18n="contact_kicker">INTERNATIONAL CONNECTIONS</div>
+  <h2 data-i18n="contact_title">Let’s structure what comes next.</h2>
+  <p data-i18n="contact_text">Connect with Astron Group to discuss institutional partnerships, structured transactions and real-asset opportunities.</p>
+  <a class="btn gold" href="mailto:alexandreoliveira@astrongroup.com.br" data-i18n="contact_cta">Contact Astron Group</a>
+</section>
+</main>
+
+<footer><span>© 2026 Astron Group Holding</span><span>International • Structured • Responsible</span></footer>
+<script>
+const translations={
+en:{nav_about:"About",nav_expertise:"Expertise",nav_ecosystem:"Ecosystem",nav_governance:"Governance",nav_contact:"Contact",hero_kicker:"ASTRON GROUP HOLDING",hero_title:"A new standard in structured finance and real assets.",hero_text:"Connecting capital, securitization and real assets through disciplined structures designed for an international market.",hero_cta1:"Explore our expertise",hero_cta2:"Discover the ecosystem",about_kicker:"ABOUT ASTRON",about_title:"Capital architecture with an international perspective.",about_text:"Astron Group develops and coordinates financial structures connecting investors, assets and specialized vehicles, with emphasis on governance, compliance, transparency and long-term value creation.",expertise_kicker:"OUR EXPERTISE",expertise_title:"Institutional solutions for sophisticated transactions.",e1t:"Funds & Investment Structures",e1p:"Architecture for investment vehicles and capital allocation strategies.",e2t:"Securitization",e2p:"Structured transactions backed by eligible receivables and real-economy assets.",e3t:"Structured Finance",e3p:"Tailored capital structures combining assets, guarantees and financing solutions.",e4t:"Real & Green Assets",e4p:"Financial strategies connected to agricultural, forestry and environmental assets.",eco_kicker:"OUR ECOSYSTEM",eco_title:"One group. Complementary platforms.",eco_text:"Astron Group connects financial structuring, technology and environmental impact within a unified institutional ecosystem.",astron_desc:"Holding, funds, securitization and structured finance.",gc_desc:"Technology, tokenization and infrastructure for green and environmental assets.",agff_desc:"Forest preservation, sustainability and environmental impact initiatives.",visit:"Landing page →",logo_note:"Prototype: official logos will replace these placeholders.",gov_kicker:"GOVERNANCE & COMPLIANCE",gov_title:"Built for institutional confidence.",gov_text:"Our approach prioritizes due diligence, asset eligibility, valuation, risk controls, legal structuring and transparent governance appropriate to each transaction and jurisdiction.",contact_kicker:"INTERNATIONAL CONNECTIONS",contact_title:"Let’s structure what comes next.",contact_text:"Connect with Astron Group to discuss institutional partnerships, structured transactions and real-asset opportunities.",contact_cta:"Contact Astron Group"},
+pt:{nav_about:"Sobre",nav_expertise:"Atuação",nav_ecosystem:"Ecossistema",nav_governance:"Governança",nav_contact:"Contato",hero_kicker:"ASTRON GROUP HOLDING",hero_title:"Um novo padrão em finanças estruturadas e ativos reais.",hero_text:"Conectando capital, securitização e ativos reais por meio de estruturas disciplinadas concebidas para o mercado internacional.",hero_cta1:"Conheça nossa atuação",hero_cta2:"Conheça o ecossistema",about_kicker:"SOBRE A ASTRON",about_title:"Arquitetura de capital com perspectiva internacional.",about_text:"A Astron Group desenvolve e coordena estruturas financeiras conectando investidores, ativos e veículos especializados, com ênfase em governança, compliance, transparência e geração de valor de longo prazo.",expertise_kicker:"NOSSA ATUAÇÃO",expertise_title:"Soluções institucionais para operações sofisticadas.",e1t:"Fundos & Estruturas de Investimento",e1p:"Arquitetura para veículos de investimento e estratégias de alocação de capital.",e2t:"Securitização",e2p:"Operações estruturadas lastreadas em recebíveis elegíveis e ativos da economia real.",e3t:"Finanças Estruturadas",e3p:"Estruturas de capital sob medida combinando ativos, garantias e soluções de financiamento.",e4t:"Ativos Reais & Verdes",e4p:"Estratégias financeiras conectadas a ativos agrícolas, florestais e ambientais.",eco_kicker:"NOSSO ECOSSISTEMA",eco_title:"Um grupo. Plataformas complementares.",eco_text:"A Astron Group conecta estruturação financeira, tecnologia e impacto ambiental em um ecossistema institucional integrado.",astron_desc:"Holding, fundos, securitização e finanças estruturadas.",gc_desc:"Tecnologia, tokenização e infraestrutura para ativos verdes e ambientais.",agff_desc:"Preservação florestal, sustentabilidade e iniciativas de impacto ambiental.",visit:"Landing page →",logo_note:"Protótipo: os logotipos oficiais substituirão estes espaços.",gov_kicker:"GOVERNANÇA & COMPLIANCE",gov_title:"Estruturada para confiança institucional.",gov_text:"Nossa abordagem prioriza due diligence, elegibilidade de ativos, valuation, controles de risco, estruturação jurídica e governança transparente adequada a cada operação e jurisdição.",contact_kicker:"CONEXÕES INTERNACIONAIS",contact_title:"Vamos estruturar o próximo passo.",contact_text:"Conecte-se à Astron Group para discutir parcerias institucionais, operações estruturadas e oportunidades em ativos reais.",contact_cta:"Fale com a Astron Group"}
+};
+const fallback={es:"Español",fr:"Français",it:"Italiano",de:"Deutsch"};
+function setLang(lang){
+  const t=translations[lang]||translations.en;
+  document.documentElement.lang=lang;
+  document.querySelectorAll("[data-i18n]").forEach(el=>{
+    const k=el.dataset.i18n;
+    if(t[k]) el.textContent=t[k];
+  });
+  if(!translations[lang] && fallback[lang]) alert(fallback[lang]+" translation is prepared for the next content review. English is shown in this prototype.");
+}
+document.getElementById("language").addEventListener("change",e=>setLang(e.target.value));
+
+</script>
+</body>
+</html>
